@@ -7,8 +7,9 @@ From the [official repository]() of the ESP32S3-Pocket-Dongle-S3, which you can 
 - [Prerequisites](#Prerequisites)
 - [Setup](#Setup)
   - [Setting up Arduino IDE](#Setting-up-Arduino-IDE)
-  - [Preparing the Scketch](Preparing-the-Sketch)
-  - [Uploading-the-files-to-the-memory](#Uploading-the-files-to-the-memory)
+  - [Preparing the Scketch](#Preparing-the-Sketch)
+  - [Uploading the files to the memory](#Uploading-the-files-to-the-memory)
+- [Sources](#Sources)
 
 # Prerequisites
 
@@ -21,13 +22,13 @@ From the [official repository]() of the ESP32S3-Pocket-Dongle-S3, which you can 
 - SPIFFS == 2.0.0
 
 > [!WARNING]
-> Do **not in any case** update the libraries upon opening the ArduinoIDE. They will mess up the whole project. Stick with the version described up here.
+> Do **not in any case** update the libraries upon opening the ArduinoIDE. They will mess up the whole project. Stick with the versions described up here.
 
 # Setup
 
 ## Setting up Arduino IDE
 
-You can set them up by copying the `Arduino/libraries` folder into your Arduino libraries. If you do not know where is located, look it up online.
+You can copy the `Arduino/libraries` folder into your Arduino libraries to get started immediately. If you do not know where is located, look it up online.
 
 Next, you have to install the esp32 module board for ArduinoIDE.
 
